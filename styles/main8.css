@@ -43,21 +43,21 @@ main {
 } 
 main h3 {
     margin: 3em 2em 1.5em 2em;
-    border: 5px dashed brown;
+    border: 5px dashed rgb(71, 48, 48);
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px black;
     padding: 1em;
 }
 main nav {
     margin: 1.5em 2em 1.5em 2em;
-    border: 5px dashed brown;
+    border: 5px dashed rgb(71, 48, 48);
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px black;
     padding: 0.5em;
 }
 main div.contact {
     margin: 1.5em 2em 0em 2em;
-    border: 5px dotted brown;
+    border: 5px dotted rgb(71, 48, 48);
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px black;
     padding: 1em;
