@@ -63,6 +63,7 @@ main div.contact {
     padding: 1em;
 }
 footer.copyright{
-    margin-left: 2em;
+    text-align: center;
+    font-size: 80%
 }
 
