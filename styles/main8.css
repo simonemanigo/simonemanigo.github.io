@@ -11,7 +11,7 @@ body{
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    background: url(/images/solid-pink-background-u5j3iwrspcoqdhvn.jpg) right repeat-y; 
+    background: url(/images/Screenshot_24-2-2026_162224_i.pinimg.com.jpeg) right repeat-y; 
     background-attachment: fixed;
 }
 a:hover, a:focus {
@@ -36,7 +36,7 @@ header img {
     margin-left: 2em;
 }
 .shadow {
-    text-shadow: 2px 2px 2px rgb(2, 2, 2)
+    text-shadow: 2px 2px 2px rgb(0, 0, 0)
 }
 main {
     clear: left;
