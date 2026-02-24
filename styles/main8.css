@@ -16,19 +16,19 @@ body{
 }
 a:hover, a:focus {
     font-style: italic;
-    color: rgb(230, 144, 187);
+    color: rgb(230, 64, 180);
 }
 header{
     margin-bottom: 3em;
 }
 header h1 {
     font-size: 175%;
-    color: maroon;
+    color: rgb(230, 64, 180);
     text-indent: 30px;
 }
 header h2 {
     font-size: 130%;
-    color: #800000;
+    color: rgb(230, 64, 180);
     text-indent: 30px;
 }
 header img {
