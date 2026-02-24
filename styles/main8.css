@@ -43,23 +43,23 @@ main {
 } 
 main h3 {
     margin: 3em 2em 1.5em 2em;
-    border: 5px dashed blue;
+    border: 5px dashed brown;
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
+    box-shadow: 3px 3px 4px 4px black;
     padding: 1em;
 }
 main nav {
     margin: 1.5em 2em 1.5em 2em;
-    border: 5px dashed blue;
+    border: 5px dashed brown;
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
+    box-shadow: 3px 3px 4px 4px black;
     padding: 0.5em;
 }
 main div.contact {
     margin: 1.5em 2em 0em 2em;
-    border: 5px dotted blue;
+    border: 5px dotted brown;
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
+    box-shadow: 3px 3px 4px 4px black;
     padding: 1em;
 }
 footer.copyright{
