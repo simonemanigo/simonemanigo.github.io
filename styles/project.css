@@ -1,0 +1,83 @@
+html {
+    background-image: linear-gradient(to left, white 0%, purple 100%);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 90%;
+    background-color: white;
+    margin: 15px auto;
+    padding: 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+}
+
+a:hover, 
+a:focus {
+    font-style: italic;
+    color: orangered;
+    border: 3px blue;
+    border-style: dotted solid;
+}
+
+.shadow {
+    text-shadow: 2px 2px 2px rgb(128, 0, 0);
+}
+
+/* 5. Article styling */
+article {
+    clear: left;
+    width: 70%;
+    float: left;
+    column-count: 2;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
+}
+/* 6. Article h3 */
+article h3 {
+    column-span: all;
+}
+
+/* 7. Article image */
+article img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+/* 8. First letter styling */
+article p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: lightgreen;
+}
+
+/* 9. Aside styling */
+aside {
+    width: 20%;
+    float: right;
+    background-color: #ffebc6;
+    padding: 1em;
+}
+
+/* 10. Footer styling */
+footer {
+    clear: both;
+    border-top: 2px solid maroon;
+    padding-top: 1em;
+}
+/* 11. Fixed contact text */
+p.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: maroon;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    font-weight: bold;
+}
