@@ -8,7 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
     /* Background image that does NOT scroll */
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/planet.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
