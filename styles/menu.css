@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-
+/* Body */
 body {
     font-family: Arial, Helvetica, sans-serif;
     width: 95%;
@@ -34,6 +34,7 @@ body {
 #nav_menu ul li a:focus {
     color: orangered;
 }
+
 #nav_menu ul li a.current {
     text-decoration: underline;
 }
@@ -65,6 +66,7 @@ aside {
     padding-left: 1em;
 }
 
+/* Ordered list = upper-roman */
 aside ol {
     list-style-type: upper-roman;
     margin-bottom: 1.5em;
