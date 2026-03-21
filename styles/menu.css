@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    margin: 15px auto;
+    padding: 1em;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+    padding: 1em 0;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em;
+}
+
+#nav_menu ul li a {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+#nav_menu ul li a:hover,
+#nav_menu ul li a:focus {
+    color: orangered;
+}
+#nav_menu ul li a.current {
+    text-decoration: underline;
+}
+
+article {
+    width: 75%;
+    float: left;
+    margin-top: 1em;
+}
+
+article h1 {
+    margin-bottom: 1em;
+}
+
+article h2 {
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+}
+
+article p {
+    margin-bottom: 1em;
+    line-height: 1.4;
+}
+
+aside {
+    width: 20%;
+    float: right;
+    margin-top: 2em;
+    padding-left: 1em;
+}
+
+aside ol {
+    list-style-type: upper-roman;
+    margin-bottom: 1.5em;
+    padding-left: 1.2em;
+}
+
+/* Unordered list = square */
+aside ul {
+    list-style-type: square;
+    padding-left: 1.2em;
+}
+
+aside li {
+    margin-bottom: .5em;
+}
+
+aside a {
+    text-decoration: none;
+    color: maroon;
+    font-weight: bold;
+}
+
+aside a:hover,
+aside a:focus {
+    color: orangered;
+}
