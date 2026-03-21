@@ -61,6 +61,7 @@ article p::first-letter {
 /* Floating image after Introduction */
 .float_img {
     float: left;
+    width: 200px;
     margin-right: 1em;
     margin-bottom: 1em;
     border: 2px solid black;
