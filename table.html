@@ -3,54 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tables Quiz</title>
+    <title>Tables</title>
     <link rel="stylesheet" href="styles/table.css">
 </head>
-
 <body>
 
-    <table class="first">
-        <caption>IT Jobs and Salaries</caption>
+<table class="first">
+    <caption>IT Jobs and Salaries</caption>
+    <tr>
+        <th></th>
+        <th>Job</th>
+        <th>Salary</th>
+    </tr>
+    <tr>
+        <td>1.</td>
+        <td>Support Technician</td>
+        <td>40-50k</td>
+    </tr>
+    <tr>
+        <td>2.</td>
+        <td>Business/System/Data Analyst</td>
+        <td>50-80k</td>
+    </tr>
+    <tr>
+        <td>3.</td>
+        <td>Software/Web Developer</td>
+        <td>60-90k</td>
+    </tr>
+</table>
+
+<br><br>
+
+<table class="second">
+    <caption>IT Jobs and Salaries</caption>
+    <tr>
+        <th></th>
+        <th>Job</th>
+        <th>Salary</th>
+    </tr>
+    <tr>
+        <td>1.</td>
+        <td>Support Technician</td>
+        <td>40-50k</td>
+    </tr>
+    <tr>
+        <td rowspan="3">2.</td>
+        <td>Business Analyst</td>
+        <td rowspan="3">50-80k</td>
+    </tr>
+    <tr>
+        <td>System Analyst</td>
+    </tr>
+    <tr>
+        <td>Data Analyst</td>
+    </tr>
+    <tr>
+        <td rowspan="2">3.</td>
+        <td>Software Developer</td>
+        <td rowspan="2">60-90k</td>
+    </tr>
+    <tr>
+        <td>Web Developer</td>
+    </tr>
+</table>
+
+<br><br>
+
+<table class="third">
+    <thead>
         <tr>
-            <th></th>
+            <th colspan="3">TABLE 3: IT Jobs and Salary</th>
+        </tr>
+        <tr>
+            <th>Category</th>
             <th>Job</th>
             <th>Salary</th>
         </tr>
-        <tr>
-            <td>1.</td>
-            <td>Support Technician</td>
-            <td>40-50k</td>
-        </tr>
-        <tr>
-            <td>2.</td>
-            <td>Business/System/Data Analyst</td>
-            <td>50-80k</td>
-        </tr>
-        <tr>
-            <td>3.</td>
-            <td>Software/Web Developer</td>
-            <td>60-90k</td>
-        </tr>
-    </table>
-    <br><br>
+    </thead>
 
-    <table class="second">
-        <caption>IT Jobs and Salaries</caption>
-
+    <tbody>
         <tr>
-            <th></th>
-            <th>Job</th>
-            <th>Salary</th>
-        </tr>
-
-        <tr>
-            <td>1.</td>
+            <td class="number" rowspan="1">1</td>
             <td>Support Technician</td>
             <td>40-50k</td>
         </tr>
 
         <tr>
-            <td rowspan="3">2.</td>
+            <td class="number" rowspan="3">2</td>
             <td>Business Analyst</td>
             <td rowspan="3">50-80k</td>
         </tr>
@@ -62,63 +101,15 @@
         </tr>
 
         <tr>
-            <td rowspan="2">3.</td>
+            <td class="number" rowspan="2">3</td>
             <td>Software Developer</td>
             <td rowspan="2">60-90k</td>
         </tr>
         <tr>
             <td>Web Developer</td>
         </tr>
-    </table>
-    <br><br>
-    
-    <table class="third">
-        <thead>
-            <tr>
-                <th colspan="3">TABLE 3: IT Jobs and Salaries</th>
-            </tr>
-            <tr>
-                <th>Category</th>
-                <th>Job</th>
-                <th>Salary</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td class="number">1.</td>
-                <td>Support Technician</td>
-                <td>40-50k</td>
-            </tr>
-
-            <tr>
-                <td class="number">2.</td>
-                <td>Business Analyst</td>
-                <td>50-80k</td>
-            </tr>
-            <tr>
-                <td class="number"></td>
-                <td>System Analyst</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="number"></td>
-                <td>Data Analyst</td>
-                <td></td>
-            </tr>
-
-            <tr>
-            <td class="number">3.</td>
-                <td>Software Developer</td>
-                <td>60-90k</td>
-            </tr>
-            <tr>
-                <td class="number"></td>
-                <td>Web Developer</td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
+    </tbody>
+</table>
 
 </body>
 </html>
