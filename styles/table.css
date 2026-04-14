@@ -13,13 +13,15 @@ table.first {
     border: 2px solid black;
 }
 
-table.first th, table.first td {
+table.first th,
+table.first td {
     border: 2px solid blue;
 }
 
 table.first tr:nth-child(odd) {
     background-color: lightblue;
 }
+
 table.second {
     border-collapse: collapse;
     border: 2px solid purple;
@@ -30,48 +32,52 @@ table.second th {
     background-color: salmon;
 }
 
-table.second th, table.second td {
+table.second th,
+table.second td {
     padding: 0.7em;
     vertical-align: middle;
     border: 2px solid purple;
 }
-
-table.second thead tr:first-child {
-    border-bottom: 2px solid purple;
-}
 table.third {
     border-collapse: collapse;
-    width: 100%;
     border: 2px solid orangered;
 }
 
-table.third th, table.third td {
-    padding: 0.7em;
+table.third th,
+table.third td {
     border: 2px solid orangered;
+    padding: 0.7em;
+}
+
+table.third td.number {
+    vertical-align: top;
 }
 
 table.third thead tr:first-child {
-    background-color: peachpuff;
+    background-color: lightgray;
     border-top: 2px solid orangered;
 }
 
 table.third thead tr:nth-child(2) {
-    background-color: lightyellow;
+    background-color: peachpuff;
+}
+
+
+table.third tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
 }
 
 table.third tbody tr:last-child {
     border-bottom: 2px solid orangered;
 }
 
-table.third td.number {
-    vertical-align: top;
-}
 @media only screen and (max-width: 425px) {
     th, td {
         display: block;
     }
 
-    thead, td.number {
+    thead,
+    td.number {
         display: none;
         padding: 0;
     }
