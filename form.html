@@ -1,0 +1,102 @@
+FORM. HTML 
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Membership Form</title>
+<link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+<form action="register_account.html" method="post" id="registration_form">
+
+<!-- Registration Information -->
+<fieldset>
+<legend>Registration Information</legend>
+
+<label for="email">E-Mail:</label>
+<input type="email" name="email" id="email" autofocus required autocomplete="on"><br>
+
+<label for="password">Password:</label>
+<input type="password" name="password" id="password" required
+placeholder="At least 6 letters or numbers"
+pattern="[a-zA-Z0-9]{6,}"
+title="Must be at least 6 alphanumeric characters"><br>
+
+<label for="verify">Verify Password:</label>
+<input type="password" name="verify" id="verify" required><br>
+</fieldset>
+
+<!-- Member Information -->
+<fieldset>
+<legend>Member Information</legend>
+
+<label for="first_name">First Name:</label>
+<input type="text" name="first_name" id="first_name" required autocomplete="on"><br>
+
+<label for="state">State:</label>
+<input type="text" name="state" id="state" required maxlength="2"
+placeholder="2-character code" autocomplete="on"><br>
+
+<label for="zip">ZIP Code:</label>
+<input type="text" name="zip" id="zip" required
+placeholder="5 or 9 digits"
+pattern="^\d{5}(-\d{4})?$"
+title="Either 5 or 9 digits"
+autocomplete="on"><br>
+
+<label for="phone">Phone Number:</label>
+<input type="tel" name="phone" id="phone"
+placeholder="999-999-9999"
+pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+title="Must be 999-999-999 format"
+autocomplete="on"><br>
+</fieldset>
+
+
+<fieldset>
+<legend>Membership Information</legend>
+
+<label for="membership">Membership Type:</label>
+<select name="membership" id="membership">
+<option value="junior">Junior</option>
+<option value="regular">Regular</option>
+<option value="charter">Charter</option>
+</select><br>
+
+<label for="start_date">Starting Date:</label>
+<input type="date" name="start_date" id="start_date" required><br>
+
+<label for="tickets">Tickets:</label>
+<input type="number" name="tickets" id="tickets" min="1" max="4" value="2"><br>
+</fieldset>
+
+
+<fieldset>
+<legend>How Did You Hear About Us?</legend>
+
+<input type="radio" name="source" value="search"> Search Engine<br>
+<input type="radio" name="source" value="social"> Social Media<br>
+<input type="radio" name="source" value="friend"> Friend<br>
+<input type="radio" name="source" value="other"> Other<br>
+</fieldset>
+
+
+<fieldset>
+<legend>Comments</legend>
+<textarea name="comments" id="comments"></textarea>
+</fieldset>
+
+<fieldset id="buttons">
+<legend>Submit Your Membership</legend>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</fieldset>
+
+</form>
+
+</body>
+</html>
